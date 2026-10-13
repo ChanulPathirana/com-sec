@@ -1,0 +1,23 @@
+
+# Compiled C executables
+*.out
+*.exe
+*.o
+*.so
+*.a
+
+# Executables generated for this assignment
+part1
+part2
+part3
+part4
+submission
+
+# Debugging and temporary files
+*.core
+core
+core.*
+*.log
+
+# VS Code
+.vscode/
