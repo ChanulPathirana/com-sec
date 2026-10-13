@@ -21,3 +21,5 @@ core.*
 
 # VS Code
 .vscode/
+sql_injection_demo.sqlite
+part2_test
