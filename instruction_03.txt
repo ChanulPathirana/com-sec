@@ -1,0 +1,12 @@
+**Instructions to Run and Demonstrate:**
+
+1. Install PHP with SQLite support (`sudo apt install php-cli php-sqlite3`).
+2. Open a terminal in the folder containing `sql_injection_demo.php`.
+3. Run `php -S localhost:8000`.
+4. Open `http://localhost:8000/sql_injection_demo.php` in a browser.
+5. Test normal login using username `student` and password `test123`. Both login methods should accept it.
+6. Test SQL injection using username `' OR 1=1 -- ` and password `123456`.
+7. Click **Try vulnerable query** — login should be accepted.
+8. Click **Try parameterized query** — login should be rejected.
+
+The application automatically creates the SQLite database. This demonstrates SQL injection and its prevention using prepared statements.
